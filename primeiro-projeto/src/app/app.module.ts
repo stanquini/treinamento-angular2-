@@ -5,12 +5,14 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import {MeuPrimeiroComponent} from './meu-primeiro/meu-primeiro.component';
+import { MeuPrimeiroAngularcliComponent } from './meu-primeiro-angularcli/meu-primeiro-angularcli.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    MeuPrimeiroComponent
+    MeuPrimeiroComponent,
+    MeuPrimeiroAngularcliComponent
   ],
   imports: [
     BrowserModule
