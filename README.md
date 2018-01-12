@@ -1,2 +1,2 @@
-# treinamento-angular(v2.x e v4.x)
+# treinamento-angular(v2.x, v4.x e v5.x)
 
