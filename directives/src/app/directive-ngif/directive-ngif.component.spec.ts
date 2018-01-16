@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { TesteComponent } from './teste.component';
+import { DirectiveNgifComponent } from './directive-ngif.component';
 
-describe('TesteComponent', () => {
-  let component: TesteComponent;
-  let fixture: ComponentFixture<TesteComponent>;
+describe('DirectiveNgifComponent', () => {
+  let component: DirectiveNgifComponent;
+  let fixture: ComponentFixture<DirectiveNgifComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ TesteComponent ]
+      declarations: [ DirectiveNgifComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(TesteComponent);
+    fixture = TestBed.createComponent(DirectiveNgifComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

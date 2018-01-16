@@ -1,6 +1,6 @@
 import { AppPage } from './app.po';
 
-describe('diretivas App', () => {
+describe('directives App', () => {
   let page: AppPage;
 
   beforeEach(() => {

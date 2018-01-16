@@ -1,11 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-diretiva-ngif',
-  templateUrl: './diretiva-ngif.component.html',
-  styleUrls: ['./diretiva-ngif.component.scss']
+  selector: 'app-directive-ngif',
+  templateUrl: './directive-ngif.component.html',
+  styleUrls: ['./directive-ngif.component.css']
 })
-export class DiretivaNgifComponent implements OnInit {
+export class DirectiveNgifComponent implements OnInit {
 
   cursos: string[] = ["Angular 2"];
 
