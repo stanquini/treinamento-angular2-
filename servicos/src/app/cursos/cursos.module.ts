@@ -1,0 +1,19 @@
+//Para modulo de funcionalidade importar o import { CommonModule } from '@angular/common';
+import { CommonModule } from '@angular/common';
+import { NgModule } from '@angular/core';
+
+import { CursosService } from './cursos.service';
+import { CursosComponent } from './cursos.component';
+
+@NgModule({
+  declarations: [
+    CursosComponent
+  ],
+  imports: [
+    CommonModule
+  ],
+  exports: [CursosComponent]//,
+  //providers: [CursosService]
+})
+
+export class CursosModule { }
