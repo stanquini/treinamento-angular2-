@@ -7,13 +7,10 @@ import { CursosService } from '../cursos/cursos.service';
   templateUrl: './criar-curso.component.html',
   styleUrls: ['./criar-curso.component.css'],
   providers: [CursosService]
-  
   /*
      * Quando quiser que seja criado uma instancia para o componente adicionar o providers: [CursosService] no decorator @Component
      * Se quiser somente uma instancia é necessario configurar no app.module   providers: [CursosService]  (padrão Singleton)
   */
-
-
 })
 export class CriarCursoComponent implements OnInit {
 
@@ -29,7 +26,4 @@ export class CriarCursoComponent implements OnInit {
     
     this.cursoService.addCurso(curso);
   }
-
-  
-
 }

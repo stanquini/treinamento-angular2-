@@ -20,4 +20,5 @@ import { ReceberCursoCriadoComponent } from '../receber-curso-criado/receber-cur
   //providers: [CursosService]
   
 })
+
 export class CriarCursoModule { }

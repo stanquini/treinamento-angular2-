@@ -1,14 +1,13 @@
-
 import { Component, OnInit } from '@angular/core';
 
 import { CursosService } from './cursos.service';
-import { _document } from '@angular/platform-browser/src/browser';
+
 
 @Component({
   selector: 'cursos',
   templateUrl: './cursos.component.html',
   styleUrls: ['./cursos.component.css'],
-  //providers: [CursosService]
+  providers: [CursosService]
 })
 export class CursosComponent implements OnInit {
 
