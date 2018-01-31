@@ -1,0 +1,23 @@
+<h5>Editar aluno {{ aluno.nome }}</h5>
+<div class="row">
+  <form class="col s12">
+    <div class="row">
+      <div class="input-field col s12">
+        <input [(ngModel)]="aluno.id" id="disabled" type="text" name="id" disabled>
+        <label for="id">#</label>
+      </div>
+    </div>
+    <div class="row">
+      <div class="input-field col s12">
+        <input [(ngModel)]="aluno.nome" id="nome" name="nome"type="text" class="validate">
+        <label for="nome">Nome</label>
+      </div>
+    </div>
+    <div class="row">
+      <div class="input-field col s12">
+        <input [(ngModel)]="aluno.email" name="email" id="email" type="text" class="validate">
+        <label for="email">email</label>
+      </div>
+    </div>
+  </form>
+</div>
