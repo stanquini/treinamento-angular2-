@@ -4,6 +4,7 @@ import { Subscription } from 'rxjs';
 
 import { AlunosService } from '../alunos.service';
 import { OnDestroy } from '@angular/core/src/metadata/lifecycle_hooks';
+import { Aluno } from '../aluno';
 
 
 @Component({
@@ -30,6 +31,7 @@ export class AlunoDetalheComponent implements OnInit, OnDestroy{
 
   ngOnInit() {
 
+    /*
     this.inscricao = this.route.params.subscribe(
       (params: any) => {
         this.id = params['id'];
@@ -37,6 +39,12 @@ export class AlunoDetalheComponent implements OnInit, OnDestroy{
         if(this.aluno == null) {
           this.router.navigate(['/nao-encontrado'])
         }
+      }
+    );*/
+
+    this.inscricao = this.route.data.subscribe(
+      (info: {aluno: Aluno}) => {
+        this.aluno = info.aluno;
       }
     );
   }
